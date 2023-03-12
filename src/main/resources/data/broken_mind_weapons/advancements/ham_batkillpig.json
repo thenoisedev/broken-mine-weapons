@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "broken_mind_weapons:hambat"
+    },
+    "title": {
+      "translate": "advancements.ham_batkillpig.title"
+    },
+    "description": {
+      "translate": "advancements.ham_batkillpig.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ham_batkillpig": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "broken_mind_weapons:just_a_broken_mind"
+}

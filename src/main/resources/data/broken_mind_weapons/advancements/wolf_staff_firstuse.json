@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "broken_mind_weapons:wolf_staff"
+    },
+    "title": {
+      "translate": "advancements.wolf_staff_firstuse.title"
+    },
+    "description": {
+      "translate": "advancements.wolf_staff_firstuse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wolf_staff_firstuse": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "broken_mind_weapons:just_a_broken_mind"
+}

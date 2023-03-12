@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "broken_mind_weapons:thepill"
+    },
+    "title": {
+      "translate": "advancements.thepillnobrain.title"
+    },
+    "description": {
+      "translate": "advancements.thepillnobrain.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "thepillnobrain": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "broken_mind_weapons:thepill"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "broken_mind_weapons:the_pillcraftingachievment"
+}

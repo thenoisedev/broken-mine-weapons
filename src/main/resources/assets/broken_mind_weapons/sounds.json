@@ -1,0 +1,12 @@
+{
+  "metal_pipe_right_click": {
+    "category": "player",
+    "subtitle": "subtitles.metal_pipe_right_click",
+    "sounds": [
+      {
+        "name": "broken_mind_weapons:metal_pipes_falling_sound_effect",
+        "stream": false
+      }
+    ]
+  }
+}

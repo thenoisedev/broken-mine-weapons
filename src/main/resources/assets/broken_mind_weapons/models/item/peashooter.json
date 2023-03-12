@@ -1,0 +1,7 @@
+{
+  "parent": "broken_mind_weapons:custom/peashooter",
+  "textures": {
+    "0": "broken_mind_weapons:blocks/peashooter_texture",
+    "particle": "broken_mind_weapons:items/peashooter_item"
+  }
+}

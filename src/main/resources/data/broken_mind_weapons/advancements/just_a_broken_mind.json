@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "broken_mind_weapons:textures/screens/hay_block_side.png",
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "advancements.just_a_broken_mind.title"
+    },
+    "description": {
+      "translate": "advancements.just_a_broken_mind.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "just_a_broken_mind": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2368
+            }
+          }
+        ]
+      }
+    }
+  }
+}

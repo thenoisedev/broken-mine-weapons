@@ -3,10 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "latest",
+    "texture": "ham_bat_item",
     "customModelName": "ham_bat:default",
     "name": "Ham Bat",
-    "specialInfo": [],
+    "specialInfo": [
+      "§4Loses durability over time"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Brokenmindweapons"
     },

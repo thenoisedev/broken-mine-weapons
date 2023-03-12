@@ -3,14 +3,16 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="snow_staff"
+modId="broken_mind_weapons"
 version="1.0.0"
-displayName="snow_staff"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayName="Broken Mind Weapons"
+credits="Clemardo, Lagartino, Maxsteelbro, MCreator"
 displayURL="https://mcreator.net"
-authors="Santiago Vera Paz, MCreator"
+description='''
+Adds weapons with special abilitys
+'''
 
-[[dependencies.snow_staff]]
+[[dependencies.broken_mind_weapons]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"

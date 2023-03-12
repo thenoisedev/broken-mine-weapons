@@ -3,10 +3,13 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 1,
-    "texture": "pog_inverso",
+    "texture": "peashooter_item",
     "customModelName": "peashooter:default",
     "name": "Peashooter",
-    "specialInfo": [],
+    "specialInfo": [
+      "§9Shoots peas",
+      "§dCooldown of 1 second"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Brokenmindweapons"
     },
@@ -23,6 +26,9 @@
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "PeashooterRangedItemUsed"
+    },
     "bulletPower": 1.0,
     "bulletDamage": 2.0,
     "bulletKnockback": 0,

@@ -6,7 +6,10 @@
     "texture": "e4ddl-t__x03vzc0",
     "customModelName": "Normal",
     "name": "Metal Pipe",
-    "specialInfo": [],
+    "specialInfo": [
+      "§9Makes a loud noise and slows enemies",
+      "§dCooldown of 10 seconds"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Brokenmindweapons"
     },

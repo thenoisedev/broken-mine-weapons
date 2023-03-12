@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "broken_mind_weapons:items/power_pillow"
+  }
+}

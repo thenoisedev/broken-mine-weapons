@@ -6,7 +6,10 @@
     "texture": "noisedog",
     "customModelName": "Normal",
     "name": "Wolf Staff",
-    "specialInfo": [],
+    "specialInfo": [
+      "§9Summons 3 wolves",
+      "§dCooldown of 12 seconds"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Brokenmindweapons"
     },

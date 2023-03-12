@@ -1,7 +1,0 @@
-{
-  "parent": "snow_staff:custom/ham_bat",
-  "textures": {
-    "0": "snow_staff:blocks/ham_bat_texture",
-    "particle": "snow_staff:items/latest"
-  }
-}

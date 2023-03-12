@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "broken_mind_weapons:snowstaff"
+    },
+    "title": {
+      "translate": "advancements.snowstafffirstuse.title"
+    },
+    "description": {
+      "translate": "advancements.snowstafffirstuse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "snowstafffirstuse": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "broken_mind_weapons:just_a_broken_mind"
+}

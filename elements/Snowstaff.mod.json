@@ -6,7 +6,10 @@
     "texture": "title_defense_glass_joe_noise",
     "customModelName": "Normal",
     "name": "Snow Staff",
-    "specialInfo": [],
+    "specialInfo": [
+      "§9Summons 5 snow golems",
+      "§dCooldown of 7 seconds"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Brokenmindweapons"
     },
@@ -19,11 +22,7 @@
     "usageCount": 1080,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "Items.SNOWBALL"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,

@@ -6,7 +6,9 @@
     "texture": "power_pillow",
     "customModelName": "Normal",
     "name": "Power Pillow",
-    "specialInfo": [],
+    "specialInfo": [
+      "§9Stuns enemies on hit"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Brokenmindweapons"
     },

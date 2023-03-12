@@ -1,0 +1,724 @@
+{
+  "mod_elements": [
+    {
+      "name": "SnowstaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowstaff_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/SnowstaffRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snowstaff",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowstaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_mind_weapons/models/item/snowstaff.json",
+          "src/main/java/net/mcreator/broken_mind_weapons/item/SnowstaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Snowstafffirstuse",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowstafffirstuse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/snowstafffirstuse.json"
+        ]
+      }
+    },
+    {
+      "name": "HambatToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hambat_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/HambatToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hambat",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hambat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_mind_weapons/models/item/hambat.json",
+          "src/main/java/net/mcreator/broken_mind_weapons/item/HambatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HamBatkillpig",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ham_batkillpig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/ham_batkillpig.json"
+        ]
+      }
+    },
+    {
+      "name": "Hambatachievmentkillpig",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hambatachievmentkillpig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/HambatachievmentkillpigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thepill",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thepill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_mind_weapons/models/item/thepill.json",
+          "src/main/java/net/mcreator/broken_mind_weapons/item/ThepillItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Thepilleat",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thepilleat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/ThepilleatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thepillgiveentity",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thepillgiveentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/ThepillgiveentityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerPillowLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pillow_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/PowerPillowLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerPillow",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pillow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_mind_weapons/models/item/power_pillow.json",
+          "src/main/java/net/mcreator/broken_mind_weapons/item/PowerPillowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Killwitherpill",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killwitherpill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/killwitherpill.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePillcraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pillcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/recipes/the_pill_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePillcraftingachievment",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pillcraftingachievment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/the_pillcraftingachievment.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePillcraftadvancement",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pillcraftadvancement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/ThePillcraftadvancementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WolfStaff",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_mind_weapons/models/item/wolf_staff.json",
+          "src/main/java/net/mcreator/broken_mind_weapons/item/WolfStaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WolfStaffRightclicked",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_staff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/WolfStaffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WolfStaffFirstuse",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_staff_firstuse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/wolf_staff_firstuse.json"
+        ]
+      }
+    },
+    {
+      "name": "MetalPipe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/item/MetalPipeItem.java",
+          "src/main/resources/assets/broken_mind_weapons/models/item/metal_pipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MetalPipeRightclicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/MetalPipeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MetalpipeWarden",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalpipe_warden",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/metalpipe_warden.json"
+        ]
+      }
+    },
+    {
+      "name": "Thepillnobrain",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thepillnobrain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/thepillnobrain.json"
+        ]
+      }
+    },
+    {
+      "name": "Peashooter",
+      "type": "rangeditem",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peashooter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/item/PeashooterItem.java",
+          "src/main/java/net/mcreator/broken_mind_weapons/entity/PeashooterEntity.java",
+          "src/main/resources/assets/broken_mind_weapons/models/item/peashooter.json"
+        ]
+      }
+    },
+    {
+      "name": "Peashooteradvancement",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peashooteradvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/peashooteradvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Peashooterkillzombie",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peashooterkillzombie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/PeashooterkillzombieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brokenmindweapons",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenmindweapons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Powerpillowadvancement",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerpillowadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/powerpillowadvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Powerpillowkill",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerpillowkill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/PowerpillowkillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Metalpiperecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalpiperecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/recipes/metalpipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Peashooterrecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peashooterrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/recipes/peashooterrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Snowstaffrecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowstaffrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/recipes/snowstaffrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Wolfstaffrecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfstaffrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/recipes/wolfstaffrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerPillowRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pillow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/recipes/power_pillow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeashooterEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peashooter_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/PeashooterEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "metal_pipe_right_click",
+      "files": [
+        "metal_pipes_falling_sound_effect"
+      ],
+      "category": "player",
+      "subtitle": "Metal pipe ability used"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.broken_mind_weapons.thepill": "The Pill",
+      "item.broken_mind_weapons.power_pillow": "Power Pillow",
+      "item.snow_staff.power_pillow": "Power Pillow",
+      "subtitles.metal_pipe_right_click": "Metal pipe ability used",
+      "item.snow_staff.hambat": "Ham Bat",
+      "item.snow_staff.metal_pipe": "Metal Pipe",
+      "advancements.powerpillowadvancement.title": "Zzzz…",
+      "advancements.thepillnobrain.title": "No Brain",
+      "item.snow_staff.peashooter": "Peashooter",
+      "item.broken_mind_weapons.metal_pipe": "Metal Pipe",
+      "advancements.the_pillcraftingachievment.descr": "Craft the pill",
+      "item.broken_mind_weapons.peashooter": "Peashooter",
+      "item.broken_mind_weapons.snowstaff": "Snow Staff",
+      "item.broken_mind_weapons.wolf_staff": "Wolf Staff",
+      "advancements.snowstafffirstuse.descr": "Use the snow staff",
+      "advancements.the_pillcraftingachievment.title": "GO NUTS",
+      "advancements.peashooteradvancement.descr": "Kill a zombie using a peashooter",
+      "itemGroup.tabbrokenmindweapons": "Broken Mind Weapons",
+      "advancements.thepillnobrain.descr": "Take a pill yourself",
+      "advancements.powerpillowadvancement.descr": "Kill an enemy with the power pillow",
+      "item.snow_staff.wolf_staff": "Wolf Staff",
+      "advancements.killwitherpill.descr": "Kill a Wither with a pill",
+      "advancements.ham_batkillpig.title": "Get Hammed, Idiot",
+      "item.snow_staff.snowstaff": "Snow Staff",
+      "advancements.ham_batkillpig.descr": "Kill a pig with the ham bat",
+      "advancements.metalpipe_warden.descr": "Use the metal pipe to slow the Warden",
+      "advancements.peashooteradvancement.title": "A Real Peashooter!",
+      "advancements.snowstafffirstuse.title": "Cannon Fodder",
+      "item.snow_staff.thepill": "The Pill",
+      "advancements.wolf_staff_firstuse.descr": "Use the wolf staff",
+      "advancements.killwitherpill.title": "4 stars \u003d 1 star",
+      "advancements.metalpipe_warden.title": "Deaf Threat",
+      "item.broken_mind_weapons.hambat": "Ham Bat",
+      "advancements.wolf_staff_firstuse.title": "Hunting Season"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "broken_mind_weapons",
+    "modName": "Broken Mind Weapons",
+    "version": "1.0.0",
+    "description": "Adds weapons with special abilitys",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Clemardo, Lagartino, Maxsteelbro, MCreator",
+    "modElementsPackage": "net.mcreator.broken_mind_weapons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

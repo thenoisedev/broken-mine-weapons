@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_leaves"
+    },
+    "1": {
+      "item": "minecraft:oak_leaves"
+    },
+    "2": {
+      "item": "minecraft:oak_leaves"
+    },
+    "3": {
+      "item": "minecraft:oak_leaves"
+    },
+    "4": {
+      "item": "minecraft:moss_block"
+    },
+    "5": {
+      "item": "minecraft:oak_leaves"
+    },
+    "6": {
+      "item": "minecraft:moss_block"
+    },
+    "7": {
+      "item": "minecraft:moss_block"
+    },
+    "8": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "result": {
+    "item": "broken_mind_weapons:peashooter",
+    "count": 1
+  }
+}

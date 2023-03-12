@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "broken_mind_weapons:thepill"
+    },
+    "title": {
+      "translate": "advancements.the_pillcraftingachievment.title"
+    },
+    "description": {
+      "translate": "advancements.the_pillcraftingachievment.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_pillcraftingachievment": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "broken_mind_weapons:just_a_broken_mind"
+}

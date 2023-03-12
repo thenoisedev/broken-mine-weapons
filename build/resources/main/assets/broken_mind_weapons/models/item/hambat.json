@@ -1,0 +1,7 @@
+{
+  "parent": "broken_mind_weapons:custom/ham_bat",
+  "textures": {
+    "0": "broken_mind_weapons:blocks/ham_bat_texture",
+    "particle": "broken_mind_weapons:items/ham_bat_item"
+  }
+}
