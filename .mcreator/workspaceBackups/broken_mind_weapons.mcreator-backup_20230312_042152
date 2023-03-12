@@ -647,6 +647,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "JustABrokenMind",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "just_a_broken_mind",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_mind_weapons/advancements/just_a_broken_mind.json"
+        ]
+      }
+    },
+    {
+      "name": "PeashooterRangedItemUsed",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peashooter_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/broken_mind_weapons/procedures/PeashooterRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -682,12 +718,14 @@
       "itemGroup.tabbrokenmindweapons": "Broken Mind Weapons",
       "advancements.thepillnobrain.descr": "Take a pill yourself",
       "advancements.powerpillowadvancement.descr": "Kill an enemy with the power pillow",
+      "advancements.just_a_broken_mind.title": "Just A Broken Mind",
       "item.snow_staff.wolf_staff": "Wolf Staff",
+      "advancements.just_a_broken_mind.descr": "Deadly or just brainless?",
       "advancements.killwitherpill.descr": "Kill a Wither with a pill",
       "advancements.ham_batkillpig.title": "Get Hammed, Idiot",
       "item.snow_staff.snowstaff": "Snow Staff",
       "advancements.ham_batkillpig.descr": "Kill a pig with the ham bat",
-      "advancements.metalpipe_warden.descr": "Use the metal pipe to slow the Warden",
+      "advancements.metalpipe_warden.descr": "Use the metal pipe to slow down the Warden",
       "advancements.peashooteradvancement.title": "A Real Peashooter!",
       "advancements.snowstafffirstuse.title": "Cannon Fodder",
       "item.snow_staff.thepill": "The Pill",
