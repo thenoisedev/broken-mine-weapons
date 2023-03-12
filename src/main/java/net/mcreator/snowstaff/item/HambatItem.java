@@ -5,7 +5,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -15,6 +14,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.snowstaff.procedures.HambatToolInInventoryTickProcedure;
+import net.mcreator.snowstaff.init.SnowStaffModTabs;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class HambatItem extends Item {
 	public HambatItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(24000));
+		super(new Item.Properties().tab(SnowStaffModTabs.TAB_BROKENMINDWEAPONS).durability(24000));
 	}
 
 	@Override

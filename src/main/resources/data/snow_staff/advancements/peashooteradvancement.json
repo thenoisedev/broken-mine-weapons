@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "snow_staff:peashooter"
+    },
+    "title": {
+      "translate": "advancements.peashooteradvancement.title"
+    },
+    "description": {
+      "translate": "advancements.peashooteradvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "peashooteradvancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "snow_staff:snowstafffirstuse"
+}

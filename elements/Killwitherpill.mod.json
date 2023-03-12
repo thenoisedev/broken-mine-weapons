@@ -2,16 +2,16 @@
   "_fv": 39,
   "_type": "achievement",
   "definition": {
-    "achievementName": "I Used The Stars To Get The Star",
+    "achievementName": "4 stars = 1 star",
     "achievementDescription": "Kill a Wither with a pill",
     "achievementIcon": {
-      "value": "CUSTOM:Thepill"
+      "value": "Items.NETHER_STAR"
     },
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",

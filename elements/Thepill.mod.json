@@ -8,7 +8,7 @@
     "name": "The Pill",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:Brokenmindweapons"
     },
     "stackSize": 1,
     "enchantability": 0,

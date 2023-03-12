@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "pog_inverso",
+    "customModelName": "peashooter:default",
+    "name": "Peashooter",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Brokenmindweapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.SLIME_BALL"
+    },
+    "shootConstantly": false,
+    "usageCount": 384,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.SLIME_BALL"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "snow_staff:thepill"
+      "item": "minecraft:nether_star"
     },
     "title": {
       "translate": "advancements.killwitherpill.title"
@@ -12,7 +12,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "killwitherpill": {

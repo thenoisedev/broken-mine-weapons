@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Cannon Fodder",
-    "achievementDescription": "Use the Snow Staff",
+    "achievementDescription": "Use the snow staff",
     "achievementIcon": {
       "value": "CUSTOM:Snowstaff"
     },

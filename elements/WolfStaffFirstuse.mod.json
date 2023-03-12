@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Hunting Season",
-    "achievementDescription": "Use the Wolf Staff",
+    "achievementDescription": "Use the wolf staff",
     "achievementIcon": {
       "value": "CUSTOM:WolfStaff"
     },

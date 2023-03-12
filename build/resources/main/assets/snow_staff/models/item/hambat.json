@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "snow_staff:custom/ham_bat",
   "textures": {
-    "layer0": "snow_staff:items/latest"
+    "0": "snow_staff:blocks/ham_bat_texture",
+    "particle": "snow_staff:items/latest"
   }
 }

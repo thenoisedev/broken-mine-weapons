@@ -2,13 +2,13 @@
   "_fv": 39,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "latest",
-    "customModelName": "Normal",
+    "customModelName": "ham_bat:default",
     "name": "Ham Bat",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Brokenmindweapons"
     },
     "toolType": "Special",
     "harvestLevel": 1,

@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "latest_2",
+    "texture": "power_pillow",
     "customModelName": "Normal",
     "name": "Power Pillow",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Brokenmindweapons"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
@@ -18,7 +18,7 @@
     "damageVsEntity": 1.0,
     "usageCount": 131,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "Items.FEATHER"

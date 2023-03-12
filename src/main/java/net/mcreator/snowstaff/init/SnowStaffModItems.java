@@ -14,6 +14,7 @@ import net.mcreator.snowstaff.item.WolfStaffItem;
 import net.mcreator.snowstaff.item.ThepillItem;
 import net.mcreator.snowstaff.item.SnowstaffItem;
 import net.mcreator.snowstaff.item.PowerPillowItem;
+import net.mcreator.snowstaff.item.PeashooterItem;
 import net.mcreator.snowstaff.item.MetalPipeItem;
 import net.mcreator.snowstaff.item.HambatItem;
 import net.mcreator.snowstaff.SnowStaffMod;
@@ -26,4 +27,5 @@ public class SnowStaffModItems {
 	public static final RegistryObject<Item> POWER_PILLOW = REGISTRY.register("power_pillow", () -> new PowerPillowItem());
 	public static final RegistryObject<Item> WOLF_STAFF = REGISTRY.register("wolf_staff", () -> new WolfStaffItem());
 	public static final RegistryObject<Item> METAL_PIPE = REGISTRY.register("metal_pipe", () -> new MetalPipeItem());
+	public static final RegistryObject<Item> PEASHOOTER = REGISTRY.register("peashooter", () -> new PeashooterItem());
 }

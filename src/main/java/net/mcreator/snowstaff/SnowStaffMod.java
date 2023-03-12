@@ -29,8 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.snowstaff.init.SnowStaffModTabs;
 import net.mcreator.snowstaff.init.SnowStaffModSounds;
 import net.mcreator.snowstaff.init.SnowStaffModItems;
+import net.mcreator.snowstaff.init.SnowStaffModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -48,11 +50,12 @@ public class SnowStaffMod {
 
 	public SnowStaffMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		SnowStaffModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SnowStaffModSounds.REGISTRY.register(bus);
 
 		SnowStaffModItems.REGISTRY.register(bus);
+		SnowStaffModEntities.REGISTRY.register(bus);
 
 	}
 

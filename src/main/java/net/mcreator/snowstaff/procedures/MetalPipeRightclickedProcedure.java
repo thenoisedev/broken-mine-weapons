@@ -68,7 +68,7 @@ public class MetalPipeRightclickedProcedure {
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"effect give @e[type=warden,distance=..3] minecraft:slowness 5 1");
-		if (((Entity) world.getEntitiesOfClass(Warden.class, AABB.ofSize(new Vec3(x, y, z), 3.5, 3.5, 3.5), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Warden.class, AABB.ofSize(new Vec3(x, y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}

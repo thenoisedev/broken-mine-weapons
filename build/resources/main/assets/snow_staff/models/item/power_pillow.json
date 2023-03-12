@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "snow_staff:items/latest_2"
+    "layer0": "snow_staff:items/power_pillow"
   }
 }
