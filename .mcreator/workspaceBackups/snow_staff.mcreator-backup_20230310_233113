@@ -1,0 +1,434 @@
+{
+  "mod_elements": [
+    {
+      "name": "SnowstaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowstaff_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/SnowstaffRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snowstaff",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowstaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/snow_staff/models/item/snowstaff.json",
+          "src/main/java/net/mcreator/snowstaff/item/SnowstaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Snowstafffirstuse",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowstafffirstuse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/snow_staff/advancements/snowstafffirstuse.json"
+        ]
+      }
+    },
+    {
+      "name": "HambatToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hambat_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/HambatToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hambat",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hambat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/snow_staff/models/item/hambat.json",
+          "src/main/java/net/mcreator/snowstaff/item/HambatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HamBatkillpig",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ham_batkillpig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/snow_staff/advancements/ham_batkillpig.json"
+        ]
+      }
+    },
+    {
+      "name": "Hambatachievmentkillpig",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hambatachievmentkillpig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/HambatachievmentkillpigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thepill",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thepill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/snow_staff/models/item/thepill.json",
+          "src/main/java/net/mcreator/snowstaff/item/ThepillItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Thepilleat",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thepilleat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/ThepilleatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thepillgiveentity",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thepillgiveentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/ThepillgiveentityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerPillowLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pillow_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/PowerPillowLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerPillow",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pillow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/snow_staff/models/item/power_pillow.json",
+          "src/main/java/net/mcreator/snowstaff/item/PowerPillowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Killwitherpill",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killwitherpill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/snow_staff/advancements/killwitherpill.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePillcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pillcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/snow_staff/recipes/the_pill_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePillcraftingachievment",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pillcraftingachievment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/snow_staff/advancements/the_pillcraftingachievment.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePillcraftadvancement",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pillcraftadvancement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/ThePillcraftadvancementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WolfStaff",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/snow_staff/models/item/wolf_staff.json",
+          "src/main/java/net/mcreator/snowstaff/item/WolfStaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WolfStaffRightclicked",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_staff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/WolfStaffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WolfStaffFirstuse",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_staff_firstuse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/snow_staff/advancements/wolf_staff_firstuse.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.snowstafffirstuse.descr": "Use the Snow Staff",
+      "advancements.the_pillcraftingachievment.title": "With Great Power Comes Great Responsibility",
+      "item.snow_staff.wolf_staff": "Wolf Staff",
+      "item.snow_staff.power_pillow": "Power Pillow",
+      "item.snow_staff.hambat": "Ham Bat",
+      "advancements.killwitherpill.descr": "Kill a Wither with a pill",
+      "advancements.ham_batkillpig.title": "Get Hammed, Idiot",
+      "item.snow_staff.snowstaff": "Snow Staff",
+      "advancements.ham_batkillpig.descr": "Kill a pig with the ham bat",
+      "advancements.snowstafffirstuse.title": "Cannon Fodder",
+      "item.snow_staff.thepill": "The Pill",
+      "advancements.the_pillcraftingachievment.descr": "Craft the pill",
+      "advancements.wolf_staff_firstuse.descr": "Use the Wolf Staff",
+      "advancements.killwitherpill.title": "I Used The Stars To Get The Star",
+      "advancements.wolf_staff_firstuse.title": "Hunting Season"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "snow_staff",
+    "modName": "snow_staff",
+    "version": "1.0.0",
+    "author": "Santiago Vera Paz, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.snowstaff",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}

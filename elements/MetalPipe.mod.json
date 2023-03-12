@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "e4ddl-t__x03vzc0",
+    "customModelName": "Normal",
+    "name": "Metal Pipe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "snow_staff:items/title_defense_glass_joe_noise"
+  }
+}

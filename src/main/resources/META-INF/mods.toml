@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="snow_staff"
+version="1.0.0"
+displayName="snow_staff"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Santiago Vera Paz, MCreator"
+
+[[dependencies.snow_staff]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

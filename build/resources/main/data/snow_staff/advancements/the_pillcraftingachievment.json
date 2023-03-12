@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "snow_staff:thepill"
+    },
+    "title": {
+      "translate": "advancements.the_pillcraftingachievment.title"
+    },
+    "description": {
+      "translate": "advancements.the_pillcraftingachievment.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_pillcraftingachievment": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "snow_staff:snowstafffirstuse"
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "latest",
+    "customModelName": "Normal",
+    "name": "Ham Bat",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 7.0,
+    "usageCount": 24000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "HambatToolInInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "HambatToolInInventoryTick"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "noisedog",
+    "customModelName": "Normal",
+    "name": "Wolf Staff",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.6,
+    "enchantability": 0,
+    "damageVsEntity": 0.0,
+    "usageCount": 832,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "WolfStaffRightclicked"
+    }
+  }
+}

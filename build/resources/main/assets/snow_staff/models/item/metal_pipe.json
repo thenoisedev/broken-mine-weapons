@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "snow_staff:items/e4ddl-t__x03vzc0"
+  }
+}
