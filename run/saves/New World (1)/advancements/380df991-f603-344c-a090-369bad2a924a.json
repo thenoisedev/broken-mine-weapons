@@ -1,247 +1,336 @@
 {
-  "minecraft:recipes/building_blocks/light_blue_wool": {
-    "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
-      "has_mutton": "2023-03-10 23:40:43 -0300"
+      "has_mutton": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
-      "has_porkchop": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2023-03-10 23:40:43 -0300"
+      "has_porkchop": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_wool": {
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
-      "has_red_mushroom": "2023-03-10 23:40:58 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_wool": {
-    "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/green_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_carpet": {
+  "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2023-03-10 23:40:50 -0300"
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:savanna": "2023-03-10 23:40:41 -0300"
+      "minecraft:forest": "2023-03-11 23:54:32 -0300",
+      "minecraft:savanna": "2023-03-11 23:47:41 -0300"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
-  "snow_staff:ham_batkillpig": {
+  "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
-      "ham_batkillpig": "2023-03-10 23:41:58 -0300"
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
-  "snow_staff:wolf_staff_firstuse": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "wolf_staff_firstuse": "2023-03-10 23:44:24 -0300"
+      "consumed_item": "2023-03-11 23:54:07 -0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2023-03-10 23:40:40 -0300"
+      "has_lots_of_items": "2023-03-11 23:47:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-03-11 23:47:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
-      "has_wool": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "snow_staff:snowstafffirstuse": {
-    "criteria": {
-      "snowstafffirstuse": "2023-03-10 23:41:47 -0300"
+      "has_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
-      "has_snowball": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "snow_staff:the_pillcraftingachievment": {
-    "criteria": {
-      "the_pillcraftingachievment": "2023-03-10 23:41:12 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_wool": {
-    "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_wool": {
-    "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_snowball": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/yellow_wool": {
+  "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
-      "has_white_wool": "2023-03-10 23:40:43 -0300"
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton": {
+  "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
-      "has_mutton": "2023-03-10 23:40:43 -0300"
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "has_porkchop": "2023-03-10 23:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2023-03-10 23:40:43 -0300"
+      "beetroots": "2023-03-11 23:48:48 -0300",
+      "pumpkin_stem": "2023-03-11 23:48:48 -0300",
+      "melon_stem": "2023-03-11 23:48:48 -0300",
+      "nether_wart": "2023-03-11 23:48:48 -0300",
+      "wheat": "2023-03-11 23:48:48 -0300"
     },
     "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_something": "2023-03-10 23:41:58 -0300"
+      "killed_something": "2023-03-11 23:49:13 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bowl": {
+  "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
-      "has_red_mushroom": "2023-03-10 23:40:58 -0300"
+      "has_coal": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },
-  "snow_staff:killwitherpill": {
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
-      "killwitherpill": "2023-03-10 23:41:32 -0300"
+      "has_stone": "2023-03-11 23:47:50 -0300"
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
+  "minecraft:nether/netherite_armor": {
     "criteria": {
-      "tamed_animal": "2023-03-10 23:44:24 -0300"
+      "netherite_armor": "2023-03-11 23:53:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-03-11 23:47:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-03-11 23:47:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2023-03-11 23:54:07 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-03-11 23:54:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2023-03-11 23:47:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "snow_staff:metalpipe_warden": {
+    "criteria": {
+      "metalpipe_warden": "2023-03-11 23:53:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2023-03-11 23:47:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-03-11 23:54:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2023-03-11 23:53:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2023-03-11 23:53:30 -0300"
     },
     "done": true
   },

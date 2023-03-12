@@ -400,16 +400,57 @@
           "src/main/java/net/mcreator/snowstaff/item/MetalPipeItem.java"
         ]
       }
+    },
+    {
+      "name": "MetalPipeRightclicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/snowstaff/procedures/MetalPipeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "metal_pipe_right_click",
+      "files": [
+        "metal_pipes_falling_sound_effect"
+      ],
+      "category": "player",
+      "subtitle": "Metal pipe ability used"
+    }
+  ],
   "language_map": {
     "en_us": {
       "advancements.snowstafffirstuse.descr": "Use the Snow Staff",
       "advancements.the_pillcraftingachievment.title": "With Great Power Comes Great Responsibility",
       "item.snow_staff.wolf_staff": "Wolf Staff",
       "item.snow_staff.power_pillow": "Power Pillow",
+      "subtitles.metal_pipe_right_click": "Metal pipe ability used",
       "item.snow_staff.hambat": "Ham Bat",
       "advancements.killwitherpill.descr": "Kill a Wither with a pill",
       "advancements.ham_batkillpig.title": "Get Hammed, Idiot",
