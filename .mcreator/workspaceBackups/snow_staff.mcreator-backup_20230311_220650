@@ -386,6 +386,20 @@
           "src/main/resources/data/snow_staff/advancements/wolf_staff_firstuse.json"
         ]
       }
+    },
+    {
+      "name": "MetalPipe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/snow_staff/models/item/metal_pipe.json",
+          "src/main/java/net/mcreator/snowstaff/item/MetalPipeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -399,6 +413,7 @@
       "item.snow_staff.hambat": "Ham Bat",
       "advancements.killwitherpill.descr": "Kill a Wither with a pill",
       "advancements.ham_batkillpig.title": "Get Hammed, Idiot",
+      "item.snow_staff.metal_pipe": "Metal Pipe",
       "item.snow_staff.snowstaff": "Snow Staff",
       "advancements.ham_batkillpig.descr": "Kill a pig with the ham bat",
       "advancements.snowstafffirstuse.title": "Cannon Fodder",
@@ -430,5 +445,5 @@
     "modElementsPackage": "net.mcreator.snowstaff",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300110219
+  "mcreatorVersion": 202300110610
 }
